@@ -3,7 +3,6 @@ package paquete05;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import paquete04.Estudiante;
 
 public class EjecutaEstudiante {
 
@@ -32,7 +31,8 @@ public class EjecutaEstudiante {
         ArrayList<Estudiante> estudiantes = new ArrayList<>();
         
         // inicio de solución
-        
+        System.out.println("-------------------------------------------------");
+        System.out.println("");
         
         
         

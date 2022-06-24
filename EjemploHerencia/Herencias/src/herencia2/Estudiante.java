@@ -41,6 +41,6 @@ public class Estudiante extends Persona{
     @Override
     public String toString(){
     
-        return String.format("%s - %f", super.toString(), getMatricula());
+        return String.format(" %s \n %f", super.toString(), getMatricula());
     }
 }
