@@ -79,4 +79,18 @@ public abstract class Estudiante {
     public double obtenerMatricula(){
         return matricula;
     }
+    public String toString(){
+    String cadena = String.format("Nombres: %s\n"
+            + "Apellidos: %s\n"
+            + "Indentificacion: %s\n"
+            + "Edad: %d\n"
+            + "Matricula: %.2f", 
+            nombresEstudiante,
+            apellidosEstudiante,
+            identificacionEstudiante,
+            edadEstudiante,
+            matricula);
+    
+    return cadena;
+    }
 }
